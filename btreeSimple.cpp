@@ -1,9 +1,11 @@
+// b tree used in databases and file system
+// 
 #include <iostream>
 using namespace std;
 
 class TreeNode {
-  int *keys;
-  int t;
+  int *keys; //stores keys of node
+  int t; //minimum deg of tree . node can have most 2t-1 keyes and 2t children
   TreeNode **C;
   int n;
   bool leaf;
