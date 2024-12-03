@@ -1,3 +1,4 @@
+
 #include <iostream>
 #include <vector>
 using namespace std;
@@ -69,4 +70,17 @@ int main() {
 
     return 0;
 }
+
+//knuth morris pratt algo for efficiend string matching tech to find all occureces of pattern
+// it avoid redundant comparison by preprocessing the pattern into auxilarry array called 
+// longest prefix suffix lps array
+
+// kmp algo uses the lps array to avoid reching character already mathched
+// lps is for prefix and sufix both
+// lps array construction -> o of m where m is length of pattern
+// pattern matching -> o of n , n is length of text
+// o of n +m
+// space of o of m
+
+// advantage like efficient for large text and avoid rebundant comparison unlike naive string matching algo
 
