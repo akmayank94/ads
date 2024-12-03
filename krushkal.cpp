@@ -98,3 +98,10 @@ int main() {
     return 0;
 }
 
+// TC: O(ElogE + E. alpha(V))
+// for sparse graph E = V : O(ElogE)
+// SC: O(E+V)
+
+// advantage : simple+ efficiend for edge list representation + works well for sparse E<= V^2
+// disadv: costly for dense graph + for adj matrix , prims algo is faster
+
