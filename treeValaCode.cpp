@@ -113,3 +113,9 @@ int main() {
     }
 }
 
+// insertion -> best O(log N) and worst O(N)
+// search -> same to same 
+// inorder traveral -> O(N)
+// space comp -> samme 
+// preformance degrade to o of n when unbalanced
+
