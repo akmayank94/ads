@@ -1,5 +1,11 @@
 // b tree used in databases and file system
-// 
+// worst case - hight of tree o of logt N
+// searching within node o of t
+// total time o of t.logt N
+
+// insett o of t.logt N
+// space comp of o of N
+// t-1 se 2t-1 keyes hoti and t to 2t children 
 #include <iostream>
 using namespace std;
 
