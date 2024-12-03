@@ -77,3 +77,10 @@ int main() {
     return 0;
 }
 
+
+// avg case : T(n) = T(n/2) + O(n) and tc O(n)
+// worst : O(n^2)
+// space: O(logn)
+
+// adv: faster than classic 
+// dis: performance variablity + not stable if array element are repeated 
