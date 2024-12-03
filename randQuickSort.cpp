@@ -63,3 +63,15 @@ int main() {
 
     return 0;
 }
+
+//best avg
+// RR: T(n) = 2T(n/2) + O(n)
+// TC: O(nlogn)
+
+//worst O(n^2)
+//Sc: O(logn)
+
+//adv: rand reduce worst case+ faster than classix+ no addinal memory req
+// dis: recusrtion can lead to stack overflow for large arrays
+// edge case: all element me o of nsquare lagta to compare every element and single element me sidha termination
+
