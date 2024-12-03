@@ -70,3 +70,8 @@ int main() {
     return 0;
 }
 
+//tc : o(v) intialization and o(vxe) for relaxation soo exv
+// sc: o of v+e
+// adv: handle -ve wiehgt edge
+// dis: slower to dijkrstra as for no -ve wiehgt
+
